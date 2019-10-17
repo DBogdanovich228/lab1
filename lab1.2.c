@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <locale.h>
 
-void main(void) {
+void main(void) {setlocale(LC_ALL,"Russian");
 float x,y,z,a,c,d,s;
 printf("print x,y,z\n");
 scanf("%f %f %f",&x,&y,&z);
