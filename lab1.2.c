@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <locale.h>
 
-
-void main(void) {setlocale(LC_ALL,"Russian");
+void main(void) {
 float x,y,z,a,c,d,s;
-printf("введите x,y,z\n");
+printf("print x,y,z\n");
 scanf("%f %f %f",&x,&y,&z);
 a=cbrt(x)+pow(x,y+2);
 c=sqrt(10*a);
