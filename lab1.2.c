@@ -4,7 +4,7 @@
 #include <locale.h>
 
 void main(void) {setlocale(LC_ALL,"Russian");
-float x,y,z,a,c,d,s;
+float x,y,z,a,c,d,s; \\k
 printf("print x,y,z\n");
 scanf("%f %f %f",&x,&y,&z);
 a=cbrt(x)+pow(x,y+2);
